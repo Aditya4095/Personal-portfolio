@@ -12,7 +12,7 @@
     }
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     #desktop-nav {
       display: none;
     }
@@ -99,5 +99,10 @@
     }
     .text-container {
       text-align: justify;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .experience-details-container {
+      margin-top: 0; /* Remove the top margin in larger screens where it's not needed */
     }
   }

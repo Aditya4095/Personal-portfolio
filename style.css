@@ -188,6 +188,7 @@ section {
 .section__text__p1 {
   text-align: center;
  
+ 
 }
 /* .section__text__p4 {
     text-align: center;
@@ -342,6 +343,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 2rem;
 }
 
 .article-container {
@@ -368,6 +370,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 2rem;
 }
 
 .color-container {
@@ -447,4 +450,14 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+.section__text__p4{
+  text-align: center;
+  margin-top: 5rem;
+
+} 
+.title4{
+  text-align: center;
+  font-size: 3rem;
 }
