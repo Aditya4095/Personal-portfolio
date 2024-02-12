@@ -126,6 +126,7 @@
     }
     #about {
       position: relative;
+      margin-top: -18rem;
       
     }
     about-details-container {
