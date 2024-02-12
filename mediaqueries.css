@@ -114,6 +114,7 @@
       height: 46vw;
       justify-content: center;
       margin-bottom: 2;
+      margin-top: -2rem;
     }
     .section__text__p2 {
       font-size: 1.25rem;
