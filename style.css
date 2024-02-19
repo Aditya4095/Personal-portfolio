@@ -1,14 +1,20 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
 * {
+  
+  
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  padding-top: 17vh;
+  margin: 0;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -30,18 +36,28 @@ a,
 nav,
 .nav-links {
   display: flex;
+  position: fixed;
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  position: fixed;
+  width: 100%; /* Ensure it takes full width */
+  top: 0; /* Stick it to the top */
+  background-color: white; /* Optionally, add background color */
+  z-index: 1000; /* Ensure it appears above other content */
+  
 }
 
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  position: fixed;
+  margin-left: -10rem;
+  
   
 }
 
@@ -60,6 +76,8 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  margin-left: -16rem; /* Adjust spacing as needed */
+  text-align: left;
 }
 
 .logo:hover {
@@ -273,7 +291,7 @@ section {
 
 #about {
   position: relative;
-  margin-top: -2rem;
+  margin-top: -5rem;
 }
 
 #about h1{
@@ -373,7 +391,7 @@ article .icon {
 
 #projects {
   position: relative;
-  margin-top: 8rem;
+  margin-top: -5rem;
 }
 
 .color-container {
