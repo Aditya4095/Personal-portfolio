@@ -79,6 +79,10 @@
       margin-top: 15rem;
     
       }
+      #projects {
+        position: relative;
+        margin-top: -1rem;
+      }
 
     
   }
