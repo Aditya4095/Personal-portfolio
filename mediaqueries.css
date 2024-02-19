@@ -75,7 +75,7 @@
     }
     #profile {
       height: 83vh;
-      margin-top: 12rem;
+      margin-top: 5rem;
     }
     article {
       font-size: 1rem;
@@ -89,6 +89,7 @@
     .btn-container {
       flex-wrap: wrap;
       margin-bottom: 2rem;
+      margin-top: 2rem;
     }
     .contact-info-container {
       margin: 0;
@@ -133,6 +134,18 @@
     about-details-container {
       display: flex;
       margin-top: -8rem;
+  }
+  .section__text__p1 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  #experience {
+    position: relative;
+    margin-top: -1rem;
+  }
+  #projects{
+    position: relative;
+    margin-top: -5rem;
   }
    
   }
