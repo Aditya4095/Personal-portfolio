@@ -121,7 +121,7 @@
       font-size: 1.25rem;
     }
     .title {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     .text-container {
       text-align: justify;
@@ -149,10 +149,16 @@
   }
 .title1{
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 3rem;
 
   }
+  .title4{
+
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
    
   }
   @media only screen and (min-width: 768px) {
