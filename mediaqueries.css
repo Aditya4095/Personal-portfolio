@@ -101,7 +101,7 @@
     }
     #profile {
       height: 83vh;
-      margin-top: 5rem;
+      margin-top: -8rem;
     }
     article {
       font-size: 1rem;
@@ -154,7 +154,7 @@
     }
     #about {
       position: relative;
-      margin-top: -14rem;
+      margin-top: -24rem;
       
     }
     about-details-container {
