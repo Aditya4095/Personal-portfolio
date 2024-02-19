@@ -167,7 +167,7 @@
   }
   #experience {
     position: relative;
-    margin-top: -1rem;
+    margin-top: -3rem;
   }
   #projects{
     position: relative;
@@ -179,7 +179,7 @@
   margin-top: 15rem;
 
   }
-  .title4{
+ .title4{
 
     text-align: center;
     font-size: 1.5rem;
@@ -203,6 +203,11 @@ nav {
   margin-bottom: 1rem;
   text-align: left;
 }
+.section__text__p4 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
    
   }
   @media only screen and (min-width: 768px) {
